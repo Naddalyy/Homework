@@ -6,4 +6,4 @@ current_number = int(input("Enter a number! "))
 for current_number in range(current_number, current_number + 10):
     previous_number = current_number - 1
     sum = current_number + previous_number
-    print("Current Number:", current_number," " "Previous Number:", previous_number," " "Their Sum should be:", sum)
+    print("Current Number: {} Previous Number: {} Their Sum is: {}".format(current_number, previous_number, sum))
